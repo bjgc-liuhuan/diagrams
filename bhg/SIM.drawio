@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="4">
   <diagram name="商品供应商实体类" id="j9i_rfgbZDb7O-kBvICU">
     <mxGraphModel dx="2247" dy="1913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,6 +122,57 @@
               <mxPoint x="57" y="205" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mYpvxALUJ5xhCre7oc29" name="接口关系图">
+    <mxGraphModel dx="1420" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BJf9vSC-L9skdsLdH7B4-7" value="永续供应商信息" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BJf9vSC-L9skdsLdH7B4-16" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#23445D;" edge="1" parent="1" source="BJf9vSC-L9skdsLdH7B4-8" target="BJf9vSC-L9skdsLdH7B4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJf9vSC-L9skdsLdH7B4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#23445D;" edge="1" parent="1" source="BJf9vSC-L9skdsLdH7B4-8" target="BJf9vSC-L9skdsLdH7B4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJf9vSC-L9skdsLdH7B4-22" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" connectable="0" parent="BJf9vSC-L9skdsLdH7B4-20">
+          <mxGeometry x="-0.1057" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJf9vSC-L9skdsLdH7B4-23" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" connectable="0" parent="BJf9vSC-L9skdsLdH7B4-20">
+          <mxGeometry x="-0.1642" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJf9vSC-L9skdsLdH7B4-30" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=#FFFFFF;fontColor=#eb2d2d;fillColor=#182E3E;" vertex="1" connectable="0" parent="BJf9vSC-L9skdsLdH7B4-20">
+          <mxGeometry x="-0.1447" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJf9vSC-L9skdsLdH7B4-8" value="验证是否&lt;div&gt;修改价格&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="350" y="72.5" width="106" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="BJf9vSC-L9skdsLdH7B4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#23445D;" edge="1" parent="1" source="BJf9vSC-L9skdsLdH7B4-7" target="BJf9vSC-L9skdsLdH7B4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJf9vSC-L9skdsLdH7B4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#23445D;" edge="1" parent="1" source="BJf9vSC-L9skdsLdH7B4-15" target="BJf9vSC-L9skdsLdH7B4-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJf9vSC-L9skdsLdH7B4-15" value="如可修改价格，则可进行永续商品调整价格" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="590" y="75" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BJf9vSC-L9skdsLdH7B4-19" value="直接录入收货数量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="353" y="280" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
