@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
-  <diagram name="第 1 页" id="j9i_rfgbZDb7O-kBvICU">
-    <mxGraphModel>
+  <diagram name="实体类" id="j9i_rfgbZDb7O-kBvICU">
+    <mxGraphModel dx="2247" dy="1913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BdW4K0w7dbtvmhQf_xav-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;annotation&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;Data&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-719" y="-320" width="87" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BdW4K0w7dbtvmhQf_xav-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;RkItemSuppCountry&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- countryId: String&lt;br/&gt;- idSpr: String&lt;br/&gt;- itemId: String&lt;br/&gt;- idStrRt: String&lt;br/&gt;- caseSize: Double&lt;br/&gt;- unitCost: String&lt;br/&gt;- cdVat: String&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; countryId: String&lt;br/&gt; idStrRt: String&lt;br/&gt; unitCost: String&lt;br/&gt; idSpr: String&lt;br/&gt; cdVat: String&lt;br/&gt; caseSize: Double&lt;br/&gt; itemId: String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="-200" width="209" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="BdW4K0w7dbtvmhQf_xav-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;annotation&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;Table&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-643" y="-380" width="94" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BdW4K0w7dbtvmhQf_xav-22" value="名称： RkItemSuppCountry.java 描述：商品供应商实体类" style="shape=note;size=20;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-495" y="-332" width="322" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="BdW4K0w7dbtvmhQf_xav-23" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=none;strokeColor=#595959;exitX=1.000;exitY=0.141;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;" edge="1" parent="1" source="BdW4K0w7dbtvmhQf_xav-20" target="BdW4K0w7dbtvmhQf_xav-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-334" y="-151" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BdW4K0w7dbtvmhQf_xav-24" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;dashPattern=1 1;startArrow=none;endArrow=none;strokeColor=#999900;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.001;entryDx=0;entryDy=0;" edge="1" parent="1" source="BdW4K0w7dbtvmhQf_xav-20" target="BdW4K0w7dbtvmhQf_xav-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-636" y="-266" />
+              <mxPoint x="-676" y="-266" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BdW4K0w7dbtvmhQf_xav-25" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;dashPattern=1 1;startArrow=none;endArrow=none;strokeColor=#999900;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.001;entryDx=0;entryDy=0;" edge="1" parent="1" source="BdW4K0w7dbtvmhQf_xav-20" target="BdW4K0w7dbtvmhQf_xav-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-636" y="-266" />
+              <mxPoint x="-596" y="-266" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BdW4K0w7dbtvmhQf_xav-26" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;annotation&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;Data&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="-570" width="87" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BdW4K0w7dbtvmhQf_xav-27" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;RkOrders&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- completeDate: String&lt;br/&gt;- idStrRt: String&lt;br/&gt;- totalCost: String&lt;br/&gt;- createDate: String&lt;br/&gt;- itemNm: String&lt;br/&gt;- shipmentId: String&lt;br/&gt;- sourceId: String&lt;br/&gt;- couReceived: String&lt;br/&gt;- orderId: String&lt;br/&gt;- totalExpected: String&lt;br/&gt;- status: Integer&lt;br/&gt;- like: String&lt;br/&gt;- notBeforeDate: String&lt;br/&gt;- notAfterDate: String&lt;br/&gt;- ordItmList: List&amp;lt;RkOrderItm&amp;gt;&lt;br/&gt;- receivedDate: String&lt;br/&gt;- nmSpr: String&lt;br/&gt;- createdBy: String&lt;br/&gt;- rssCreateInd: String&lt;br/&gt;- statusName: String&lt;br/&gt;- commentDesc: String&lt;br/&gt;- totalQuantity: String&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; totalQuantity: String&lt;br/&gt; commentDesc: String&lt;br/&gt; totalCost: String&lt;br/&gt; orderId: String&lt;br/&gt; itemNm: String&lt;br/&gt; sourceId: String&lt;br/&gt; rssCreateInd: String&lt;br/&gt; idStrRt: String&lt;br/&gt; like: String&lt;br/&gt; notBeforeDate: String&lt;br/&gt; nmSpr: String&lt;br/&gt; couReceived: String&lt;br/&gt; createDate: String&lt;br/&gt; createdBy: String&lt;br/&gt; notAfterDate: String&lt;br/&gt; totalExpected: String&lt;br/&gt; receivedDate: String&lt;br/&gt; completeDate: String&lt;br/&gt; status: Integer&lt;br/&gt; statusName: String&lt;br/&gt; ordItmList: List&amp;lt;RkOrderItm&amp;gt;&lt;br/&gt; shipmentId: String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="-459" width="233" height="1008" as="geometry" />
+        </mxCell>
+        <mxCell id="BdW4K0w7dbtvmhQf_xav-28" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;annotation&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;Table&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="64" y="-570" width="94" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BdW4K0w7dbtvmhQf_xav-29" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;dashPattern=1 1;startArrow=none;endArrow=none;strokeColor=#999900;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.001;entryDx=0;entryDy=0;" edge="1" parent="1" source="BdW4K0w7dbtvmhQf_xav-27" target="BdW4K0w7dbtvmhQf_xav-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-28" y="-469" />
+              <mxPoint x="-87" y="-469" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BdW4K0w7dbtvmhQf_xav-30" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;dashPattern=1 1;startArrow=none;endArrow=none;strokeColor=#999900;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.001;entryDx=0;entryDy=0;" edge="1" parent="1" source="BdW4K0w7dbtvmhQf_xav-27" target="BdW4K0w7dbtvmhQf_xav-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BdW4K0w7dbtvmhQf_xav-31" value="名称： RkItemSuppCountry.java 描述：商品供应商实体类" style="shape=note;size=20;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-450" width="322" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="BdW4K0w7dbtvmhQf_xav-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.758;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;dashed=1;" edge="1" parent="1" source="BdW4K0w7dbtvmhQf_xav-27" target="BdW4K0w7dbtvmhQf_xav-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
